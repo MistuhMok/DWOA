@@ -1,6 +1,6 @@
 # Find Upcoming Elections
 
-This project uses 'https://api.turbovote.org/elections/upcoming' to search for upcoming elections in your area. A form will load on the home page where individuals can enter their address and then find elections near them. The results from the search will display immediately underneath the form.
+This project uses https://api.turbovote.org/elections/upcoming to search for upcoming elections in your area. A form will load on the home page where individuals can enter an address and then find elections near them. The results from the search will display immediately underneath the form.
 
 ## How to install and run
 

@@ -32,7 +32,7 @@ The AddressForm is a stateless component and is the same as the one from the Jav
 
 ## ElectionInfo
 
-The AddressForm is a stateless component and renders results given from the search results. At the moment, it only displays description, date, and type but the component can be expanded to display more information as needed because all of the election information is passed in.
+The AddressForm is a stateless component and renders results given from the search results. At the moment, it only displays description, date, type, and url but the component can be expanded to display more information as needed because all of the election information is passed in.
 
 ### Functions (0)
 
@@ -40,8 +40,8 @@ The AddressForm is a stateless component and renders results given from the sear
 
 # API Routes (1)
 
-This project only consists of one api route that formats the data and calls 'https://api.turbovote.org/elections/upcoming'
+This project only consists of one api route that formats the data and calls https://api.turbovote.org/elections/upcoming
 
 ## GET /api/search/:ocdID
 
-This endpoint is called during form submit and the parameter :ocdID expects the format 'state,city' e.g.('/api/search/${state},${city}'). The route will generate 2 actual ocdIDs and return any election results from turbovote.
+This endpoint is called during form submit and the parameter :ocdID expects the format 'state,city' e.g.`/api/search/${state},${city}`. The route will generate 2 actual ocdIDs and return any election results from turbovote.
