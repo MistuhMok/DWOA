@@ -10,7 +10,7 @@ const ElectionInfo = props => {
       <li>Type: {type}</li>
       <li>
         URL:
-        <a href={url}>{url}</a>
+        <a href={url}> {url}</a>
       </li>
     </div>
   );

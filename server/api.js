@@ -6,8 +6,8 @@ module.exports = api;
 api.get('/search/:ocdID', async (req, res, next) => {
   const params = req.params.ocdID.split(',');
 
-  const state = params[0];
-  const city = params[1];
+  const state = params[0].toLowerCase();
+  const city = params[1].toLowerCase();
   const ocdID1 = `ocd-division/country:us/state:${state}`;
   const ocdID2 = ocdID1 + `/place:${city}`;
 
